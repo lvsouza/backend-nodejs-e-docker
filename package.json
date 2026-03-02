@@ -1,0 +1,28 @@
+{
+  "name": "backend-com-nodejs-e-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvsouza/backend-nodejs-e-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lvsouza/backend-nodejs-e-docker/issues"
+  },
+  "homepage": "https://github.com/lvsouza/backend-nodejs-e-docker#readme",
+  "dependencies": {
+    "fastify": "^5.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "tsx": "^4.21.0"
+  }
+}
